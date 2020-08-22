@@ -1,7 +1,7 @@
-# unplayer-asginacion-de-permisos
+# unplayer-asginacion-de-permisos 1.0.0 En actual desarrollo.
 
 **Intrucciones sobre la automatización del bot
-**1.0.0.0 En actual desarrollo.
+
 
 ## Uso del bot
 Es un sistema automatizado por lo cual te sincroniza tus rangos automaticamente, 
