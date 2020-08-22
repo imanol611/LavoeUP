@@ -1,4 +1,4 @@
-# unplayer-Asginacion de permisos
+# unplayer-asginacion-de-permisos
 
 **Intrucciones sobre la automatización del bot
 
