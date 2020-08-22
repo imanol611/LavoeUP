@@ -1,6 +1,7 @@
 # unplayer-asginacion-de-permisos
 
 **Intrucciones sobre la automatización del bot
+**1.0.0.0 En actual desarrollo.
 
 ## Uso del bot
 Es un sistema automatizado por lo cual te sincroniza tus rangos automaticamente, 
@@ -18,5 +19,6 @@ Sistema de asginacion de permisos y creacion de canales para las Orgs ya seas de
 Con cierto permisos para los integrante de la org.
 
 ## Demostracion
+[![Watch the video](https://i.ibb.co/Scdb9Cg/Captura-de-pantalla-2158.png)](https://www.youtube.com/watch?v=c8kagNVsooI&feature=youtu.be)
 
 
