@@ -1,0 +1,18 @@
+{
+  "name": "discord-unplayer",
+  "version": "1.0.0",
+  "description": "Asignacion de rangos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Imanol Quiroz",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
