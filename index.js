@@ -1,1 +1,1 @@
-/// Código oscurto
+/// Código ocurto
