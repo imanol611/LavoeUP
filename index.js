@@ -438,7 +438,7 @@ AgsinarRoles(newPresence);
 });
 
 
-client.login('NzQ1Mzk2MzM4MzEyNjA5ODEy.XzxKbw.X4K8HqrqDCdaQWjczggAuhEFTsI');
+client.login('TOKEN');
 
 
 
