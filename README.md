@@ -23,13 +23,14 @@ Sistema de asginacion de permisos y creacion de canales para las Orgs ya seas de
 Con cierto permisos para los sub lider o lideres de la org.
 
 **Lideres:**
-* `builddir` -Prioridad al hablar
--Mover Miembros
--Mutear Miembros
--Ensordecer Miembros
+* `VIEW_CHANNEL` -Pueden ver el canal
+* `PRIORITY_SPEAKER` -Prioridad al hablar
+* `MOVE_MEMBERS`-Mover Miembros
+* `MUTE_MEMBERS`-Mutear Miembros
+* `DEAFEN_MEMBERS` -Ensordecer Miembros
 
 **Sub Lideres:**
--Mover Miembros
+* `VIEW_CHANNEL` -Pueden ver el canal
 
 
 
