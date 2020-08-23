@@ -1,5 +1,4 @@
 # LavoeUP
-En actual desarrollo.
 
 LavoeUP esta hecho para que los jugadores de unplayer puedan entrar y compartir en dicord
 con sus miembros de su orgs de una forma mas ordenada y con ciertos permisos.
