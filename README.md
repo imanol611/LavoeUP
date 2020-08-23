@@ -23,6 +23,7 @@ Sistema de asginacion de permisos y creacion de canales para las Orgs ya seas de
 Con cierto permisos para los sub lider o lideres de la org.
 
 **Lideres:**
+*`Rol` -Asignacion de org o faccion
 * `VIEW_CHANNEL` -Pueden ver el canal
 * `PRIORITY_SPEAKER` -Prioridad al hablar
 * `MOVE_MEMBERS`-Mover Miembros
@@ -30,10 +31,12 @@ Con cierto permisos para los sub lider o lideres de la org.
 * `DEAFEN_MEMBERS` -Ensordecer Miembros
 
 **Sub Lideres:**
+*`Rol` -Asignacion de org o faccion
 * `VIEW_CHANNEL` -Pueden ver el canal
 * `MOVE_MEMBERS`-Mover Miembros
 
 **Miembros:**
+*`Rol` -Asignacion de org o faccion
 * `VIEW_CHANNEL` -Pueden ver el canal
 
 
