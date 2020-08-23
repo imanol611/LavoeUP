@@ -22,7 +22,7 @@ Con cierto permisos para los integrante de la facciones.
 Sistema de asginacion de permisos y creacion de canales para las Orgs ya seas del servidor GTAV o SAMP,
 Con cierto permisos para los integrante de la org.
 
-## Demostracion
-[![Watch the video](https://i.ibb.co/Scdb9Cg/Captura-de-pantalla-2158.png)](https://www.youtube.com/watch?v=c8kagNVsooI&feature=youtu.be)
 
 
+# Discord Bot
+[Invitame a tu servidor!](https://discord.com/api/oauth2/authorize?client_id=745396338312609812&permissions=8&scope=bot)
