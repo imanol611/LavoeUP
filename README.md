@@ -1,7 +1,8 @@
-# LavoeUP(1.0.0) 
+# LavoeUP
 En actual desarrollo.
 
-**Intrucciones sobre la automatización del bot
+LavoeUP esta hecho para que los jugadores de unplayer puedan entrar y compartir en dicord
+con sus miembros de su orgs de una forma mas ordenada y con ciertos permisos.
 
 # Discord Bot
 [Agregame a tu servidor!](https://discord.com/api/oauth2/authorize?client_id=745396338312609812&permissions=8&scope=bot)
