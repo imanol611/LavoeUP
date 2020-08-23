@@ -31,9 +31,9 @@ Con cierto permisos para los sub lider o lideres de la org.
 * `DEAFEN_MEMBERS` -Ensordecer Miembros
 
 **Sub Lideres:**
-*`Rol` -Asignacion de org o faccion
 * `VIEW_CHANNEL` -Pueden ver el canal
 * `MOVE_MEMBERS`-Mover Miembros
+*`Rol` -Asignacion de org o faccion
 
 **Miembros:**
 *`Rol` -Asignacion de org o faccion
