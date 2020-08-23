@@ -28,16 +28,16 @@ Con cierto permisos para los sub lider o lideres de la org.
 * `MOVE_MEMBERS`-Mover Miembros
 * `MUTE_MEMBERS`-Mutear Miembros
 * `DEAFEN_MEMBERS` -Ensordecer Miembros
-* `Rol`-Asinacion de org o faccion
+* `ROL`-Asinacion de org o faccion
 
 **Sub Lideres:**
 * `VIEW_CHANNEL` -Pueden ver el canal
 * `MOVE_MEMBERS`-Mover Miembros
-* `Rol`-Asinacion de org o faccion
+* `ROL`-Asinacion de org o faccion
 
 **Miembros:**
 * `VIEW_CHANNEL` -Pueden ver el canal
-* `Rol`-Asinacion de org o faccion
+* `ROL`-Asinacion de org o faccion
 
 
 
