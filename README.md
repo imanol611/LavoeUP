@@ -33,6 +33,7 @@ Con cierto permisos para los sub lider o lideres de la org.
 **Sub Lideres:**
 * `VIEW_CHANNEL` -Pueden ver el canal
 * `MOVE_MEMBERS`-Mover Miembros
+* `DEAFEN_MEMBERS` -Ensordecer Miembros
 * `ROL`-Asignación de org o faccion
 
 **Miembros:**
