@@ -3,6 +3,9 @@ En actual desarrollo.
 
 **Intrucciones sobre la automatización del bot
 
+# Discord Bot
+[Agregame a tu servidor!](https://discord.com/api/oauth2/authorize?client_id=745396338312609812&permissions=8&scope=bot)
+
 
 ## Uso del bot
 Es un sistema automatizado por lo cual te sincroniza tus rangos automaticamente, 
@@ -42,5 +45,3 @@ Con cierto permisos para los sub lider o lideres de la org.
 
 
 
-# Discord Bot
-[Agregame a tu servidor!](https://discord.com/api/oauth2/authorize?client_id=745396338312609812&permissions=8&scope=bot)
