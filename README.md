@@ -1,4 +1,4 @@
-# unplayer-asginacion-de-permisos(1.0.0) 
+# LavoeUP(1.0.0) 
 En actual desarrollo.
 
 **Intrucciones sobre la automatización del bot
