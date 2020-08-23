@@ -39,4 +39,4 @@ Con cierto permisos para los sub lider o lideres de la org.
 
 
 # Discord Bot
-[Invitame a tu servidor!](https://discord.com/api/oauth2/authorize?client_id=745396338312609812&permissions=8&scope=bot)
+[Agregame a tu servidor!](https://discord.com/api/oauth2/authorize?client_id=745396338312609812&permissions=8&scope=bot)
