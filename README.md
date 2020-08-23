@@ -23,7 +23,7 @@ Sistema de asginacion de permisos y creacion de canales para las Orgs ya seas de
 Con cierto permisos para los sub lider o lideres de la org.
 
 **Lideres:**
--Prioridad al hablar
+* `builddir` -Prioridad al hablar
 -Mover Miembros
 -Mutear Miembros
 -Ensordecer Miembros
