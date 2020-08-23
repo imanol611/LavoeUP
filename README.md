@@ -33,6 +33,9 @@ Con cierto permisos para los sub lider o lideres de la org.
 * `VIEW_CHANNEL` -Pueden ver el canal
 * `MOVE_MEMBERS`-Mover Miembros
 
+**Miembros:**
+* `VIEW_CHANNEL` -Pueden ver el canal
+
 
 
 # Discord Bot
