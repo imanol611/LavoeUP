@@ -14,12 +14,12 @@ Al desconectar y conectar nuevamete tendra sus roles actualizado junto con los c
 ## Funciones
 
 **Facciones:**
-Sistema de asginacion de permisos y creacion de canales para las facciones,
+Sistema de asginacion de roles y creacion de canales para las facciones,
 Con cierto permisos para los sub lider o lideres de la facciones.
 
 
 **Orgs:**
-Sistema de asginacion de permisos y creacion de canales para las Orgs ya seas del servidor GTAV o SAMP,
+Sistema de asginacion de roles y creacion de canales para las Orgs ya seas del servidor GTAV o SAMP,
 Con cierto permisos para los sub lider o lideres de la org.
 
 **Lideres:**
