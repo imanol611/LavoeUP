@@ -11,7 +11,7 @@ con sus miembros de su orgs de una forma mas ordenada y con ciertos permisos.
 Es un sistema automatizado por lo cual te sincroniza tus rangos automaticamente, 
 Al desconectar y conectar nuevamete tendra sus roles actualizado junto con los canales.
 
-*SE RECOMIENDA CREAR UN SERVIDOR TOTALMENTE NUEVO PARA SU USO*
+**SE RECOMIENDA CREAR UN SERVIDOR TOTALMENTE NUEVO PARA SU USO**
 
 ## Funciones
 
