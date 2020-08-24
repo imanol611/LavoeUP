@@ -360,7 +360,7 @@ client.on('presenceUpdate', (oldPresence, newPresence) => {
 
 
 
-client.login('NzQ1Mzk2MzM4MzEyNjA5ODEy.XzxKbw.krTIaU2SSYgCP2TegHjfmwUrZC4');
+client.login('TOKEN');
 
 
 
