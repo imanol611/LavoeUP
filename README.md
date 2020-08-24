@@ -5,7 +5,7 @@ con sus miembros de su orgs de una forma mas ordenada y con ciertos permisos.
 
 # Discord Bot
 [Agregame a tu servidor!](https://discord.com/api/oauth2/authorize?client_id=745396338312609812&permissions=8&scope=bot)
-
+[Unete ami server!](https://discord.gg/7v3KXjk)
 
 ## Uso del bot
 Es un sistema automatizado por lo cual te sincroniza tus rangos automaticamente, 
