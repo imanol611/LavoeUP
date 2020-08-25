@@ -512,7 +512,7 @@ client.on('message', msg => {
 
 
 
-client.login('NzQ1Mzk2MzM4MzEyNjA5ODEy.XzxKbw.dbyhQ0r8b-my2XO07cBpTjOethM');
+client.login('TOKEN');
 
 
 
