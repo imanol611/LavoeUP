@@ -10,7 +10,7 @@ function AgsinarRoles(usuario) {
 
 
   // Validar si esta verificado en unplayer
-  fetch("https://unplayer.com/api/1.0/user?type=discord&user_id="+usuario.user.id)
+  fetch("https://unplayer.com/api/1.0/user?type=discord&user_id="+usuario.user.id)///
   .then(res => res.json())
   .then(json =>  {
 
@@ -356,11 +356,163 @@ client.on('presenceUpdate', (oldPresence, newPresence) => {
 });
 
 
+client.on('message', msg => {
+  
+  if (msg.content === '/gtav org' || msg.content === '/gtav org 1' || msg.content === '/gtav org 2' || msg.content === '/gtav org 3' || msg.content === '/gtav org 4' || msg.content === '/gtav org 5') {
+    fetch('https://unplayer.com/api/1.0/user?type=discord&user_id='+msg.author.id)
+    .then(res => res.json())
+    .then(moverDatGtav => {  
+      if(moverDatGtav.gtav!=false){
+        fetch('https://unplayer.com/api/1.0/gtav/user/'+moverDatGtav.ids.gtav)
+        .then(res => res.json())
+        .then(moverDatGtavORg =>{
+
+         var orgsGtav = moverDatGtavORg.orgs.length
+
+          if(orgsGtav >0){
+            for (var i = 0; i < orgsGtav; i++) {
+              if(msg.content === '/gtav org'){
+                if(i == 0){ 
+                  fetch('https://unplayer.com/api/1.0/gtav/org/'+moverDatGtavORg.orgs[i].org_id)
+                  .then(res => res.json())
+                  .then(GtavmoveORg => {
+
+                  var buscarCanalGTAV=msg.guild.channels.cache.find(channel => channel.name == GtavmoveORg.name);
+
+                  msg.reply(GtavmoveORg.name);
+
+
+                  msg.guild.member(msg.author.id).voice.setChannel(buscarCanalGTAV.id);
+
+
+                  });
+                }
+              }else if(msg.content === '/gtav org '+i){ 
+                fetch('https://unplayer.com/api/1.0/gtav/org/'+moverDatGtavORg.orgs[i].org_id)
+                .then(res => res.json())
+                .then(GtavmoveORg => {
+
+                  var buscarCanalGTAV=msg.guild.channels.cache.find(channel => channel.name == GtavmoveORg.name);
+                  
+                  msg.reply(GtavmoveORg.name);
+
+                  msg.guild.member(msg.author.id).voice.setChannel(buscarCanalGTAV.id);
+
+            
+                });
+
+              }
+
+            }
+          }
+
+        });
+
+      }
+      
+    });
+  }
+
+  if (msg.content === '/samp org' || msg.content === '/samp org 1' || msg.content === '/samp org 2' || msg.content === '/samp org 3' || msg.content === '/samp org 4' || msg.content === '/samp org 5') {
+    fetch('https://unplayer.com/api/1.0/user?type=discord&user_id='+msg.author.id) 
+    .then(res => res.json())
+    .then(moverDatSamp => {  
+      if(moverDatSamp.samp!=false){
+        fetch('https://unplayer.com/api/1.0/samp/user/'+moverDatSamp.ids.samp)
+        .then(res => res.json())
+        .then(moverDatSampORg =>{
+
+         var orgsSamp = moverDatSampORg.orgs.length
+
+          if(orgsSamp >0){
+            for (var i = 0; i < orgsSamp; i++) {
+              if(msg.content === '/samp org'){
+                if(i == 0){ 
+                  fetch('https://unplayer.com/api/1.0/samp/org/'+moverDatSampORg.orgs[i].org_id)
+                  .then(res => res.json())
+                  .then(SampmoveORg => {
+
+                  var buscarCanalSamp=msg.guild.channels.cache.find(channel => channel.name == SampmoveORg.name);
+
+                  msg.reply(SampmoveORg.name);
+
+                  msg.guild.member(msg.author.id).voice.setChannel(buscarCanalSamp.id);
+
+
+                  });
+                }
+              }else if(msg.content === '/samp org '+i){ 
+                fetch('https://unplayer.com/api/1.0/samp/org/'+moverDatSampORg.orgs[i].org_id)
+                .then(res => res.json())
+                .then(SampmoveORg => {
+
+                  var buscarCanalSamp=msg.guild.channels.cache.find(channel => channel.name == SampmoveORg.name);
+                  
+                  msg.reply(SampmoveORg.name);
+
+                  msg.guild.member(msg.author.id).voice.setChannel(buscarCanalSamp.id);
+
+            
+                });
+
+              }
+
+            }
+          }
+
+        });
+
+      }
+      
+    });
+  }
+
+  if (msg.content === '/samp fac') {
+    fetch('https://unplayer.com/api/1.0/user?type=discord&user_id='+msg.author.id)
+    .then(res => res.json())
+    .then(moverDatSamp => {  
+      if(moverDatSamp.samp!=false){
+        fetch('https://unplayer.com/api/1.0/samp/user/'+moverDatSamp.ids.samp)
+        .then(res => res.json())
+        .then(moverDatSampFac =>{
+
+         var FacsSamp = moverDatSampFac.faction_id
+
+          if(FacsSamp !=false){
+              if(msg.content === '/samp fac'){
+                  fetch('https://unplayer.com/api/1.0/samp/faction/'+FacsSamp)
+                  .then(res => res.json())
+                  .then(SampmoveFac => {
+                  var buscarCanalSampFac=msg.guild.channels.cache.find(channel => channel.name == SampmoveFac.name);
+
+                  msg.reply(SampmoveFac.name);
+                  if(buscarCanalSampFac!=undefined){
+                    msg.guild.member(msg.author.id).voice.setChannel(buscarCanalSampFac.id);
+                  }
+
+
+                  });
+              }
+
+         
+          }
+
+        });
+
+      }
+      
+    });
+  }
+
+
+});
 
 
 
 
-client.login('TOKEN');
+
+
+client.login('NzQ1Mzk2MzM4MzEyNjA5ODEy.XzxKbw.dbyhQ0r8b-my2XO07cBpTjOethM');
 
 
 
