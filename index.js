@@ -356,6 +356,13 @@ client.on('presenceUpdate', (oldPresence, newPresence) => {
 });
 
 
+
+
+
+
+
+
+// Comandos
 client.on('message', msg => {
   
   if (msg.content === '/gtav org' || msg.content === '/gtav org 1' || msg.content === '/gtav org 2' || msg.content === '/gtav org 3' || msg.content === '/gtav org 4' || msg.content === '/gtav org 5') {
