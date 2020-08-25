@@ -10,7 +10,7 @@ con sus miembros de su orgs de una forma mas ordenada y con ciertos permisos.
 
 ## Uso del bot
 Es un sistema automatizado por lo cual te sincroniza tus rangos automaticamente, 
-Al desconectar y conectar nuevamete tendra sus roles actualizado junto con los canales.
+Al desconectar y conectar nuevamete tendra sus roles actualizado junto con los canales de tu org o faccion.
 
 **SE RECOMIENDA CREAR UN SERVIDOR TOTALMENTE NUEVO PARA SU USO**
 ## Comando para moverse entres canales
