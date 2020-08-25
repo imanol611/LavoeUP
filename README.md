@@ -14,13 +14,17 @@ Al desconectar y conectar nuevamete tendra sus roles actualizado junto con los c
 
 **SE RECOMIENDA CREAR UN SERVIDOR TOTALMENTE NUEVO PARA SU USO**
 ## Comandos
+
+**comandos SAMP**
 * `/samp org` -Te unes al canal de la principal org de samp
 * `/samp org 1` -Te unes al canal de la segunda org de samp
 * `/samp org 2` -Te unes al canal de la tercera org de samp
 * `/ect`
 
+**comandos FACCIONES**
 * `/samp fac` -Te unes al canal de la faccion de samp
 
+**comandos GTAV**
 * `/gtav org` -Te unes al canal de la principal org de gtav
 * `/gtav org 1` -Te unes al canal de la segunda org de gtav
 * `/gtav org 2` -Te unes al canal de la tercera org de gtav
