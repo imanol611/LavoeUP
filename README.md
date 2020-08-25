@@ -13,7 +13,7 @@ Es un sistema automatizado por lo cual te sincroniza tus rangos automaticamente,
 Al desconectar y conectar nuevamete tendra sus roles actualizado junto con los canales.
 
 **SE RECOMIENDA CREAR UN SERVIDOR TOTALMENTE NUEVO PARA SU USO**
-## Comandos
+## Comando para moverse entres canales
 **Antes de usar un comando debe estar ya en algun canal de voz**
 
 **comandos SAMP**
